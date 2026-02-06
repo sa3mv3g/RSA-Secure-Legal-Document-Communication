@@ -30,3 +30,4 @@ client_public.pem
 *.swp
 
 *.pem
+!test/*.pem

@@ -34,7 +34,7 @@ I agree to the terms and conditions of this contract.
 # Run the command and pipe the input
 # Resolve path to main.py relative to this script (one level up)
 $mainPath = Join-Path $PSScriptRoot "../main.py"
-$inputString | uv run $mainPath
+$inputString | py -m uv run $mainPath
 
 Write-Output "-----------------------------------"
 Write-Output "Demo Completed."
